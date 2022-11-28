@@ -77,9 +77,9 @@ export const Comparison: React.FC = () => {
     </div>
   ) : (
     <div>
-      {sortScores({ scores }).map((score) => {
+      {sortScores({ scores }).map((score, i) => {
         return (
-          <div>
+          <div key={i}>
             <p>{JSON.stringify(score)}</p>
           </div>
         );
