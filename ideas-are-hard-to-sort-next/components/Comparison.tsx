@@ -26,6 +26,18 @@ const updateScore = ({
   return clonedScores;
 };
 
+const sortScores = ({ scores }: { scores: Score }): Score[] => {
+  const unsortedScores = [];
+
+  const ideas = Object.keys(scores);
+
+  for (const idea of ideas) {
+    unsortedScores.push({ [idea]: scores[idea] });
+  }
+
+  return unsortedScores.sort();
+};
+
 export const Comparison: React.FC = () => {
   const [scores, setScores] = useState<Score>({});
   const [currentEntry, setCurrentEntry] = useState(0);
@@ -64,6 +76,14 @@ export const Comparison: React.FC = () => {
       />
     </div>
   ) : (
-    <div>{JSON.stringify(scores)}</div>
+    <div>
+      {sortScores({ scores }).map((score) => {
+        return (
+          <div>
+            <p>{JSON.stringify(score)}</p>
+          </div>
+        );
+      })}
+    </div>
   );
 };
