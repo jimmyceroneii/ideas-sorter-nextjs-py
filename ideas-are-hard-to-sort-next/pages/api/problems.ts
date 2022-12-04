@@ -12,198 +12,187 @@ export default function handler(
   res.status(200).json({ name: 'John Doe' });
 }
 
-export const problemList = [
-  'Problem: Questions are hard to formulate if you lack context',
-  "Problem: 3D printers aren't connective",
-  'Problem: cosmetic product ingredients are opaque',
-  "Problem: You can't draw on a recording in the same way you do a screenshot",
-  'Problem: Inputting to Trello is slow on the iPhone',
-  "Problem: Developers mostly work with other people's code",
-  'Problem: most students learn to code with wifi',
-  'Problem: cloud services promote the false idea you don’t need backups',
-  'Problem: useful metrics are static and require visiting a website often',
-  'Problem: manufacturing lines are single purpose',
-];
+export const problemList = ['Problem: Video effects are time consuming and challenging for beginners', 'Problem: Companies are complex systems but compensations attempts to isolate parts', 'Problem: Attributing code to people is hard', "Problem: You can't try out tattoos (zoom and Snapchat filters)", 'Problem: There is no money all for hiring', 'Problem: System wide adoption of similar quant reading creates huge risks', 'Problem: Inward facing enterprise UIs have little incentive to improve', 'Problem: hand soap uses plastic or is wasteful because it all can’t be used', "Problem: You can't work out at the same time your dog does", 'Problem: E-commerce is static and singleton'];
 
 export const formattedList = [
   [
-    'Problem: Questions are hard to formulate if you lack context',
-    "Problem: 3D printers aren't connective"
+    'Problem: Video effects are time consuming and challenging for beginners',
+    'Problem: Companies are complex systems but compensations attempts to isolate parts'
   ],
   [
-    'Problem: Questions are hard to formulate if you lack context',
-    'Problem: cosmetic product ingredients are opaque'
+    'Problem: Video effects are time consuming and challenging for beginners',
+    'Problem: Attributing code to people is hard'
   ],
   [
-    'Problem: Questions are hard to formulate if you lack context',
-    "Problem: You can't draw on a recording in the same way you do a screenshot"
+    'Problem: Video effects are time consuming and challenging for beginners',
+    "Problem: You can't try out tattoos (zoom and Snapchat filters)"
   ],
   [
-    'Problem: Questions are hard to formulate if you lack context',
-    'Problem: Inputting to Trello is slow on the iPhone'
+    'Problem: Video effects are time consuming and challenging for beginners',
+    'Problem: There is no money all for hiring'
   ],
   [
-    'Problem: Questions are hard to formulate if you lack context',
-    "Problem: Developers mostly work with other people's code"
+    'Problem: Video effects are time consuming and challenging for beginners',
+    'Problem: System wide adoption of similar quant reading creates huge risks'
   ],
   [
-    'Problem: Questions are hard to formulate if you lack context',
-    'Problem: most students learn to code with wifi'
+    'Problem: Video effects are time consuming and challenging for beginners',
+    'Problem: Inward facing enterprise UIs have little incentive to improve'
   ],
   [
-    'Problem: Questions are hard to formulate if you lack context',
-    'Problem: cloud services promote the false idea you don’t need backups'
+    'Problem: Video effects are time consuming and challenging for beginners',
+    'Problem: hand soap uses plastic or is wasteful because it all can’t be used'
   ],
   [
-    'Problem: Questions are hard to formulate if you lack context',
-    'Problem: useful metrics are static and require visiting a website often'
+    'Problem: Video effects are time consuming and challenging for beginners',
+    "Problem: You can't work out at the same time your dog does"
   ],
   [
-    'Problem: Questions are hard to formulate if you lack context',
-    'Problem: manufacturing lines are single purpose'
+    'Problem: Video effects are time consuming and challenging for beginners',
+    'Problem: E-commerce is static and singleton'
   ],
   [
-    "Problem: 3D printers aren't connective",
-    'Problem: cosmetic product ingredients are opaque'
+    'Problem: Companies are complex systems but compensations attempts to isolate parts',
+    'Problem: Attributing code to people is hard'
   ],
   [
-    "Problem: 3D printers aren't connective",
-    "Problem: You can't draw on a recording in the same way you do a screenshot"
+    'Problem: Companies are complex systems but compensations attempts to isolate parts',
+    "Problem: You can't try out tattoos (zoom and Snapchat filters)"
   ],
   [
-    "Problem: 3D printers aren't connective",
-    'Problem: Inputting to Trello is slow on the iPhone'
+    'Problem: Companies are complex systems but compensations attempts to isolate parts',
+    'Problem: There is no money all for hiring'
   ],
   [
-    "Problem: 3D printers aren't connective",
-    "Problem: Developers mostly work with other people's code"
+    'Problem: Companies are complex systems but compensations attempts to isolate parts',
+    'Problem: System wide adoption of similar quant reading creates huge risks'
   ],
   [
-    "Problem: 3D printers aren't connective",
-    'Problem: most students learn to code with wifi'
+    'Problem: Companies are complex systems but compensations attempts to isolate parts',
+    'Problem: Inward facing enterprise UIs have little incentive to improve'
   ],
   [
-    "Problem: 3D printers aren't connective",
-    'Problem: cloud services promote the false idea you don’t need backups'
+    'Problem: Companies are complex systems but compensations attempts to isolate parts',
+    'Problem: hand soap uses plastic or is wasteful because it all can’t be used'
   ],
   [
-    "Problem: 3D printers aren't connective",
-    'Problem: useful metrics are static and require visiting a website often'
+    'Problem: Companies are complex systems but compensations attempts to isolate parts',
+    "Problem: You can't work out at the same time your dog does"
   ],
   [
-    "Problem: 3D printers aren't connective",
-    'Problem: manufacturing lines are single purpose'
+    'Problem: Companies are complex systems but compensations attempts to isolate parts',
+    'Problem: E-commerce is static and singleton'
   ],
   [
-    'Problem: cosmetic product ingredients are opaque',
-    "Problem: You can't draw on a recording in the same way you do a screenshot"
+    'Problem: Attributing code to people is hard',
+    "Problem: You can't try out tattoos (zoom and Snapchat filters)"
   ],
   [
-    'Problem: cosmetic product ingredients are opaque',
-    'Problem: Inputting to Trello is slow on the iPhone'
+    'Problem: Attributing code to people is hard',
+    'Problem: There is no money all for hiring'
   ],
   [
-    'Problem: cosmetic product ingredients are opaque',
-    "Problem: Developers mostly work with other people's code"
+    'Problem: Attributing code to people is hard',
+    'Problem: System wide adoption of similar quant reading creates huge risks'
   ],
   [
-    'Problem: cosmetic product ingredients are opaque',
-    'Problem: most students learn to code with wifi'
+    'Problem: Attributing code to people is hard',
+    'Problem: Inward facing enterprise UIs have little incentive to improve'
   ],
   [
-    'Problem: cosmetic product ingredients are opaque',
-    'Problem: cloud services promote the false idea you don’t need backups'
+    'Problem: Attributing code to people is hard',
+    'Problem: hand soap uses plastic or is wasteful because it all can’t be used'
   ],
   [
-    'Problem: cosmetic product ingredients are opaque',
-    'Problem: useful metrics are static and require visiting a website often'
+    'Problem: Attributing code to people is hard',
+    "Problem: You can't work out at the same time your dog does"
   ],
   [
-    'Problem: cosmetic product ingredients are opaque',
-    'Problem: manufacturing lines are single purpose'
+    'Problem: Attributing code to people is hard',
+    'Problem: E-commerce is static and singleton'
   ],
   [
-    "Problem: You can't draw on a recording in the same way you do a screenshot",
-    'Problem: Inputting to Trello is slow on the iPhone'
+    "Problem: You can't try out tattoos (zoom and Snapchat filters)",
+    'Problem: There is no money all for hiring'
   ],
   [
-    "Problem: You can't draw on a recording in the same way you do a screenshot",
-    "Problem: Developers mostly work with other people's code"
+    "Problem: You can't try out tattoos (zoom and Snapchat filters)",
+    'Problem: System wide adoption of similar quant reading creates huge risks'
   ],
   [
-    "Problem: You can't draw on a recording in the same way you do a screenshot",
-    'Problem: most students learn to code with wifi'
+    "Problem: You can't try out tattoos (zoom and Snapchat filters)",
+    'Problem: Inward facing enterprise UIs have little incentive to improve'
   ],
   [
-    "Problem: You can't draw on a recording in the same way you do a screenshot",
-    'Problem: cloud services promote the false idea you don’t need backups'
+    "Problem: You can't try out tattoos (zoom and Snapchat filters)",
+    'Problem: hand soap uses plastic or is wasteful because it all can’t be used'
   ],
   [
-    "Problem: You can't draw on a recording in the same way you do a screenshot",
-    'Problem: useful metrics are static and require visiting a website often'
+    "Problem: You can't try out tattoos (zoom and Snapchat filters)",
+    "Problem: You can't work out at the same time your dog does"
   ],
   [
-    "Problem: You can't draw on a recording in the same way you do a screenshot",
-    'Problem: manufacturing lines are single purpose'
+    "Problem: You can't try out tattoos (zoom and Snapchat filters)",
+    'Problem: E-commerce is static and singleton'
   ],
   [
-    'Problem: Inputting to Trello is slow on the iPhone',
-    "Problem: Developers mostly work with other people's code"
+    'Problem: There is no money all for hiring',
+    'Problem: System wide adoption of similar quant reading creates huge risks'
   ],
   [
-    'Problem: Inputting to Trello is slow on the iPhone',
-    'Problem: most students learn to code with wifi'
+    'Problem: There is no money all for hiring',
+    'Problem: Inward facing enterprise UIs have little incentive to improve'
   ],
   [
-    'Problem: Inputting to Trello is slow on the iPhone',
-    'Problem: cloud services promote the false idea you don’t need backups'
+    'Problem: There is no money all for hiring',
+    'Problem: hand soap uses plastic or is wasteful because it all can’t be used'
   ],
   [
-    'Problem: Inputting to Trello is slow on the iPhone',
-    'Problem: useful metrics are static and require visiting a website often'
+    'Problem: There is no money all for hiring',
+    "Problem: You can't work out at the same time your dog does"
   ],
   [
-    'Problem: Inputting to Trello is slow on the iPhone',
-    'Problem: manufacturing lines are single purpose'
+    'Problem: There is no money all for hiring',
+    'Problem: E-commerce is static and singleton'
   ],
   [
-    "Problem: Developers mostly work with other people's code",
-    'Problem: most students learn to code with wifi'
+    'Problem: System wide adoption of similar quant reading creates huge risks',
+    'Problem: Inward facing enterprise UIs have little incentive to improve'
   ],
   [
-    "Problem: Developers mostly work with other people's code",
-    'Problem: cloud services promote the false idea you don’t need backups'
+    'Problem: System wide adoption of similar quant reading creates huge risks',
+    'Problem: hand soap uses plastic or is wasteful because it all can’t be used'
   ],
   [
-    "Problem: Developers mostly work with other people's code",
-    'Problem: useful metrics are static and require visiting a website often'
+    'Problem: System wide adoption of similar quant reading creates huge risks',
+    "Problem: You can't work out at the same time your dog does"
   ],
   [
-    "Problem: Developers mostly work with other people's code",
-    'Problem: manufacturing lines are single purpose'
+    'Problem: System wide adoption of similar quant reading creates huge risks',
+    'Problem: E-commerce is static and singleton'
   ],
   [
-    'Problem: most students learn to code with wifi',
-    'Problem: cloud services promote the false idea you don’t need backups'
+    'Problem: Inward facing enterprise UIs have little incentive to improve',
+    'Problem: hand soap uses plastic or is wasteful because it all can’t be used'
   ],
   [
-    'Problem: most students learn to code with wifi',
-    'Problem: useful metrics are static and require visiting a website often'
+    'Problem: Inward facing enterprise UIs have little incentive to improve',
+    "Problem: You can't work out at the same time your dog does"
   ],
   [
-    'Problem: most students learn to code with wifi',
-    'Problem: manufacturing lines are single purpose'
+    'Problem: Inward facing enterprise UIs have little incentive to improve',
+    'Problem: E-commerce is static and singleton'
   ],
   [
-    'Problem: cloud services promote the false idea you don’t need backups',
-    'Problem: useful metrics are static and require visiting a website often'
+    'Problem: hand soap uses plastic or is wasteful because it all can’t be used',
+    "Problem: You can't work out at the same time your dog does"
   ],
   [
-    'Problem: cloud services promote the false idea you don’t need backups',
-    'Problem: manufacturing lines are single purpose'
+    'Problem: hand soap uses plastic or is wasteful because it all can’t be used',
+    'Problem: E-commerce is static and singleton'
   ],
   [
-    'Problem: useful metrics are static and require visiting a website often',
-    'Problem: manufacturing lines are single purpose'
+    "Problem: You can't work out at the same time your dog does",
+    'Problem: E-commerce is static and singleton'
   ]
 ]

@@ -1,14 +1,14 @@
 const problemList = [
-  'Problem: Questions are hard to formulate if you lack context',
-  "Problem: 3D printers aren't connective",
-  'Problem: cosmetic product ingredients are opaque',
-  "Problem: You can't draw on a recording in the same way you do a screenshot",
-  'Problem: Inputting to Trello is slow on the iPhone',
-  "Problem: Developers mostly work with other people's code",
-  'Problem: most students learn to code with wifi',
-  'Problem: cloud services promote the false idea you don’t need backups',
-  'Problem: useful metrics are static and require visiting a website often',
-  'Problem: manufacturing lines are single purpose',
+  'Problem: Video effects are time consuming and challenging for beginners',
+  'Problem: Companies are complex systems but compensations attempts to isolate parts',
+  'Problem: Attributing code to people is hard',
+  "Problem: You can't try out tattoos (zoom and Snapchat filters)",
+  'Problem: There is no money all for hiring',
+  'Problem: System wide adoption of similar quant reading creates huge risks',
+  'Problem: Inward facing enterprise UIs have little incentive to improve',
+  'Problem: hand soap uses plastic or is wasteful because it all can’t be used',
+  "Problem: You can't work out at the same time your dog does",
+  'Problem: E-commerce is static and singleton',
 ];
 
 const listOfPairs = [];
