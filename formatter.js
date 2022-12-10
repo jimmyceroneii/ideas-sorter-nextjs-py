@@ -1,14 +1,14 @@
 const problemList = [
-  'Problem: Video effects are time consuming and challenging for beginners',
-  'Problem: Companies are complex systems but compensations attempts to isolate parts',
-  'Problem: Attributing code to people is hard',
-  "Problem: You can't try out tattoos (zoom and Snapchat filters)",
-  'Problem: There is no money all for hiring',
-  'Problem: System wide adoption of similar quant reading creates huge risks',
-  'Problem: Inward facing enterprise UIs have little incentive to improve',
-  'Problem: hand soap uses plastic or is wasteful because it all can’t be used',
-  "Problem: You can't work out at the same time your dog does",
-  'Problem: E-commerce is static and singleton',
+  'Problem: tampons are not conveniently stored',
+  'Problem: Problem: solar panels are expensive and inconvenient',
+  'Problem: Maps apps are free',
+  "Problem: You can't vote in app on reality TV shows",
+  'Problem: There is no running total when you are grocery shopping (amazon go as a bright spot)',
+  'Problem: Last mile (and beyond) transport is inefficient and increases traffic',
+  'Problem: Employees are forced to go to different companies for different offers based on equity or compenstation',
+  "Problem: Public wifi at coffee shops doesn't work",
+  'Problem: Hotel block software is confusing',
+  "Problem: Messages on Android are removed from the notification center if you dismiss the push notification. They are left unread, which means they don't remind you about it like they might if it was read.",
 ];
 
 const listOfPairs = [];
@@ -25,4 +25,4 @@ const generatePairs = (listsPairs) => {
   return generatePairs(listsPairs.splice(1));
 };
 
-console.log('result: ', generatePairs(problemList));
+console.log(generatePairs(problemList));
