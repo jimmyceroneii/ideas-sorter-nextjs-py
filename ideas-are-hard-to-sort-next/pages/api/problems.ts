@@ -12,187 +12,185 @@ export default function handler(
   res.status(200).json({ name: 'John Doe' });
 }
 
-export const problemList = ['Problem: Video effects are time consuming and challenging for beginners', 'Problem: Companies are complex systems but compensations attempts to isolate parts', 'Problem: Attributing code to people is hard', "Problem: You can't try out tattoos (zoom and Snapchat filters)", 'Problem: There is no money all for hiring', 'Problem: System wide adoption of similar quant reading creates huge risks', 'Problem: Inward facing enterprise UIs have little incentive to improve', 'Problem: hand soap uses plastic or is wasteful because it all can’t be used', "Problem: You can't work out at the same time your dog does", 'Problem: E-commerce is static and singleton'];
-
 export const formattedList = [
   [
-    'Problem: Video effects are time consuming and challenging for beginners',
-    'Problem: Companies are complex systems but compensations attempts to isolate parts'
+    'Problem: tampons are not conveniently stored',
+    'Problem: Problem: solar panels are expensive and inconvenient'
   ],
   [
-    'Problem: Video effects are time consuming and challenging for beginners',
-    'Problem: Attributing code to people is hard'
+    'Problem: tampons are not conveniently stored',
+    'Problem: Maps apps are free'
   ],
   [
-    'Problem: Video effects are time consuming and challenging for beginners',
-    "Problem: You can't try out tattoos (zoom and Snapchat filters)"
+    'Problem: tampons are not conveniently stored',
+    "Problem: You can't vote in app on reality TV shows"
   ],
   [
-    'Problem: Video effects are time consuming and challenging for beginners',
-    'Problem: There is no money all for hiring'
+    'Problem: tampons are not conveniently stored',
+    'Problem: There is no running total when you are grocery shopping (amazon go as a bright spot)'
   ],
   [
-    'Problem: Video effects are time consuming and challenging for beginners',
-    'Problem: System wide adoption of similar quant reading creates huge risks'
+    'Problem: tampons are not conveniently stored',
+    'Problem: Last mile (and beyond) transport is inefficient and increases traffic'
   ],
   [
-    'Problem: Video effects are time consuming and challenging for beginners',
-    'Problem: Inward facing enterprise UIs have little incentive to improve'
+    'Problem: tampons are not conveniently stored',
+    'Problem: Employees are forced to go to different companies for different offers based on equity or compenstation'
   ],
   [
-    'Problem: Video effects are time consuming and challenging for beginners',
-    'Problem: hand soap uses plastic or is wasteful because it all can’t be used'
+    'Problem: tampons are not conveniently stored',
+    "Problem: Public wifi at coffee shops doesn't work"
   ],
   [
-    'Problem: Video effects are time consuming and challenging for beginners',
-    "Problem: You can't work out at the same time your dog does"
+    'Problem: tampons are not conveniently stored',
+    'Problem: Hotel block software is confusing'
   ],
   [
-    'Problem: Video effects are time consuming and challenging for beginners',
-    'Problem: E-commerce is static and singleton'
+    'Problem: tampons are not conveniently stored',
+    "Problem: Messages on Android are removed from the notification center if you dismiss the push notification. They are left unread, which means they don't remind you about it like they might if it was read."
   ],
   [
-    'Problem: Companies are complex systems but compensations attempts to isolate parts',
-    'Problem: Attributing code to people is hard'
+    'Problem: Problem: solar panels are expensive and inconvenient',
+    'Problem: Maps apps are free'
   ],
   [
-    'Problem: Companies are complex systems but compensations attempts to isolate parts',
-    "Problem: You can't try out tattoos (zoom and Snapchat filters)"
+    'Problem: Problem: solar panels are expensive and inconvenient',
+    "Problem: You can't vote in app on reality TV shows"
   ],
   [
-    'Problem: Companies are complex systems but compensations attempts to isolate parts',
-    'Problem: There is no money all for hiring'
+    'Problem: Problem: solar panels are expensive and inconvenient',
+    'Problem: There is no running total when you are grocery shopping (amazon go as a bright spot)'
   ],
   [
-    'Problem: Companies are complex systems but compensations attempts to isolate parts',
-    'Problem: System wide adoption of similar quant reading creates huge risks'
+    'Problem: Problem: solar panels are expensive and inconvenient',
+    'Problem: Last mile (and beyond) transport is inefficient and increases traffic'
   ],
   [
-    'Problem: Companies are complex systems but compensations attempts to isolate parts',
-    'Problem: Inward facing enterprise UIs have little incentive to improve'
+    'Problem: Problem: solar panels are expensive and inconvenient',
+    'Problem: Employees are forced to go to different companies for different offers based on equity or compenstation'
   ],
   [
-    'Problem: Companies are complex systems but compensations attempts to isolate parts',
-    'Problem: hand soap uses plastic or is wasteful because it all can’t be used'
+    'Problem: Problem: solar panels are expensive and inconvenient',
+    "Problem: Public wifi at coffee shops doesn't work"
   ],
   [
-    'Problem: Companies are complex systems but compensations attempts to isolate parts',
-    "Problem: You can't work out at the same time your dog does"
+    'Problem: Problem: solar panels are expensive and inconvenient',
+    'Problem: Hotel block software is confusing'
   ],
   [
-    'Problem: Companies are complex systems but compensations attempts to isolate parts',
-    'Problem: E-commerce is static and singleton'
+    'Problem: Problem: solar panels are expensive and inconvenient',
+    "Problem: Messages on Android are removed from the notification center if you dismiss the push notification. They are left unread, which means they don't remind you about it like they might if it was read."
   ],
   [
-    'Problem: Attributing code to people is hard',
-    "Problem: You can't try out tattoos (zoom and Snapchat filters)"
+    'Problem: Maps apps are free',
+    "Problem: You can't vote in app on reality TV shows"
   ],
   [
-    'Problem: Attributing code to people is hard',
-    'Problem: There is no money all for hiring'
+    'Problem: Maps apps are free',
+    'Problem: There is no running total when you are grocery shopping (amazon go as a bright spot)'
   ],
   [
-    'Problem: Attributing code to people is hard',
-    'Problem: System wide adoption of similar quant reading creates huge risks'
+    'Problem: Maps apps are free',
+    'Problem: Last mile (and beyond) transport is inefficient and increases traffic'
   ],
   [
-    'Problem: Attributing code to people is hard',
-    'Problem: Inward facing enterprise UIs have little incentive to improve'
+    'Problem: Maps apps are free',
+    'Problem: Employees are forced to go to different companies for different offers based on equity or compenstation'
   ],
   [
-    'Problem: Attributing code to people is hard',
-    'Problem: hand soap uses plastic or is wasteful because it all can’t be used'
+    'Problem: Maps apps are free',
+    "Problem: Public wifi at coffee shops doesn't work"
   ],
   [
-    'Problem: Attributing code to people is hard',
-    "Problem: You can't work out at the same time your dog does"
+    'Problem: Maps apps are free',
+    'Problem: Hotel block software is confusing'
   ],
   [
-    'Problem: Attributing code to people is hard',
-    'Problem: E-commerce is static and singleton'
+    'Problem: Maps apps are free',
+    "Problem: Messages on Android are removed from the notification center if you dismiss the push notification. They are left unread, which means they don't remind you about it like they might if it was read."
   ],
   [
-    "Problem: You can't try out tattoos (zoom and Snapchat filters)",
-    'Problem: There is no money all for hiring'
+    "Problem: You can't vote in app on reality TV shows",
+    'Problem: There is no running total when you are grocery shopping (amazon go as a bright spot)'
   ],
   [
-    "Problem: You can't try out tattoos (zoom and Snapchat filters)",
-    'Problem: System wide adoption of similar quant reading creates huge risks'
+    "Problem: You can't vote in app on reality TV shows",
+    'Problem: Last mile (and beyond) transport is inefficient and increases traffic'
   ],
   [
-    "Problem: You can't try out tattoos (zoom and Snapchat filters)",
-    'Problem: Inward facing enterprise UIs have little incentive to improve'
+    "Problem: You can't vote in app on reality TV shows",
+    'Problem: Employees are forced to go to different companies for different offers based on equity or compenstation'
   ],
   [
-    "Problem: You can't try out tattoos (zoom and Snapchat filters)",
-    'Problem: hand soap uses plastic or is wasteful because it all can’t be used'
+    "Problem: You can't vote in app on reality TV shows",
+    "Problem: Public wifi at coffee shops doesn't work"
   ],
   [
-    "Problem: You can't try out tattoos (zoom and Snapchat filters)",
-    "Problem: You can't work out at the same time your dog does"
+    "Problem: You can't vote in app on reality TV shows",
+    'Problem: Hotel block software is confusing'
   ],
   [
-    "Problem: You can't try out tattoos (zoom and Snapchat filters)",
-    'Problem: E-commerce is static and singleton'
+    "Problem: You can't vote in app on reality TV shows",
+    "Problem: Messages on Android are removed from the notification center if you dismiss the push notification. They are left unread, which means they don't remind you about it like they might if it was read."
   ],
   [
-    'Problem: There is no money all for hiring',
-    'Problem: System wide adoption of similar quant reading creates huge risks'
+    'Problem: There is no running total when you are grocery shopping (amazon go as a bright spot)',
+    'Problem: Last mile (and beyond) transport is inefficient and increases traffic'
   ],
   [
-    'Problem: There is no money all for hiring',
-    'Problem: Inward facing enterprise UIs have little incentive to improve'
+    'Problem: There is no running total when you are grocery shopping (amazon go as a bright spot)',
+    'Problem: Employees are forced to go to different companies for different offers based on equity or compenstation'
   ],
   [
-    'Problem: There is no money all for hiring',
-    'Problem: hand soap uses plastic or is wasteful because it all can’t be used'
+    'Problem: There is no running total when you are grocery shopping (amazon go as a bright spot)',
+    "Problem: Public wifi at coffee shops doesn't work"
   ],
   [
-    'Problem: There is no money all for hiring',
-    "Problem: You can't work out at the same time your dog does"
+    'Problem: There is no running total when you are grocery shopping (amazon go as a bright spot)',
+    'Problem: Hotel block software is confusing'
   ],
   [
-    'Problem: There is no money all for hiring',
-    'Problem: E-commerce is static and singleton'
+    'Problem: There is no running total when you are grocery shopping (amazon go as a bright spot)',
+    "Problem: Messages on Android are removed from the notification center if you dismiss the push notification. They are left unread, which means they don't remind you about it like they might if it was read."
   ],
   [
-    'Problem: System wide adoption of similar quant reading creates huge risks',
-    'Problem: Inward facing enterprise UIs have little incentive to improve'
+    'Problem: Last mile (and beyond) transport is inefficient and increases traffic',
+    'Problem: Employees are forced to go to different companies for different offers based on equity or compenstation'
   ],
   [
-    'Problem: System wide adoption of similar quant reading creates huge risks',
-    'Problem: hand soap uses plastic or is wasteful because it all can’t be used'
+    'Problem: Last mile (and beyond) transport is inefficient and increases traffic',
+    "Problem: Public wifi at coffee shops doesn't work"
   ],
   [
-    'Problem: System wide adoption of similar quant reading creates huge risks',
-    "Problem: You can't work out at the same time your dog does"
+    'Problem: Last mile (and beyond) transport is inefficient and increases traffic',
+    'Problem: Hotel block software is confusing'
   ],
   [
-    'Problem: System wide adoption of similar quant reading creates huge risks',
-    'Problem: E-commerce is static and singleton'
+    'Problem: Last mile (and beyond) transport is inefficient and increases traffic',
+    "Problem: Messages on Android are removed from the notification center if you dismiss the push notification. They are left unread, which means they don't remind you about it like they might if it was read."
   ],
   [
-    'Problem: Inward facing enterprise UIs have little incentive to improve',
-    'Problem: hand soap uses plastic or is wasteful because it all can’t be used'
+    'Problem: Employees are forced to go to different companies for different offers based on equity or compenstation',
+    "Problem: Public wifi at coffee shops doesn't work"
   ],
   [
-    'Problem: Inward facing enterprise UIs have little incentive to improve',
-    "Problem: You can't work out at the same time your dog does"
+    'Problem: Employees are forced to go to different companies for different offers based on equity or compenstation',
+    'Problem: Hotel block software is confusing'
   ],
   [
-    'Problem: Inward facing enterprise UIs have little incentive to improve',
-    'Problem: E-commerce is static and singleton'
+    'Problem: Employees are forced to go to different companies for different offers based on equity or compenstation',
+    "Problem: Messages on Android are removed from the notification center if you dismiss the push notification. They are left unread, which means they don't remind you about it like they might if it was read."
   ],
   [
-    'Problem: hand soap uses plastic or is wasteful because it all can’t be used',
-    "Problem: You can't work out at the same time your dog does"
+    "Problem: Public wifi at coffee shops doesn't work",
+    'Problem: Hotel block software is confusing'
   ],
   [
-    'Problem: hand soap uses plastic or is wasteful because it all can’t be used',
-    'Problem: E-commerce is static and singleton'
+    "Problem: Public wifi at coffee shops doesn't work",
+    "Problem: Messages on Android are removed from the notification center if you dismiss the push notification. They are left unread, which means they don't remind you about it like they might if it was read."
   ],
   [
-    "Problem: You can't work out at the same time your dog does",
-    'Problem: E-commerce is static and singleton'
+    'Problem: Hotel block software is confusing',
+    "Problem: Messages on Android are removed from the notification center if you dismiss the push notification. They are left unread, which means they don't remind you about it like they might if it was read."
   ]
 ]
