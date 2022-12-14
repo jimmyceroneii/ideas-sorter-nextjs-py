@@ -26,16 +26,22 @@ const updateScore = ({
   return clonedScores;
 };
 
-const sortScores = ({ scores }: { scores: Score }): Score[] => {
+const sortScores = ({
+  scores,
+}: {
+  scores: Score;
+}): Array<{ name: string; score: number }> => {
   const unsortedScores = [];
 
   const ideas = Object.keys(scores);
 
   for (const idea of ideas) {
-    unsortedScores.push({ [idea]: scores[idea] });
+    unsortedScores.push({ name: idea, score: scores[idea] });
   }
 
-  return unsortedScores.sort();
+  const sortedScores = unsortedScores.sort((a, b) => a.score - b.score);
+
+  return sortedScores;
 };
 
 export const Comparison: React.FC = () => {
@@ -77,6 +83,18 @@ export const Comparison: React.FC = () => {
     </div>
   ) : (
     <div>
+      <h1>Top & Bottom Score:</h1>
+      {[
+        sortScores({ scores })[0],
+        sortScores({ scores })[sortScores({ scores }).length - 1],
+      ].map((score, i) => {
+        return (
+          <div key={i}>
+            <p>{JSON.stringify(score)}</p>
+          </div>
+        );
+      })}
+      <h2>All Scores</h2>
       {sortScores({ scores }).map((score, i) => {
         return (
           <div key={i}>
