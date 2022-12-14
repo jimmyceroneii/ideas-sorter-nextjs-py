@@ -1,14 +1,14 @@
 const problemList = [
-  'Problem: tampons are not conveniently stored',
-  'Problem: Problem: solar panels are expensive and inconvenient',
-  'Problem: Maps apps are free',
-  "Problem: You can't vote in app on reality TV shows",
-  'Problem: There is no running total when you are grocery shopping (amazon go as a bright spot)',
-  'Problem: Last mile (and beyond) transport is inefficient and increases traffic',
-  'Problem: Employees are forced to go to different companies for different offers based on equity or compenstation',
-  "Problem: Public wifi at coffee shops doesn't work",
-  'Problem: Hotel block software is confusing',
-  "Problem: Messages on Android are removed from the notification center if you dismiss the push notification. They are left unread, which means they don't remind you about it like they might if it was read.",
+  'Problem: Customer support is asynchronous',
+  'Problem: There are tiered monetary rewards via government payouts',
+  'Problem: Fitted sheets are hard to put in',
+  'Problem: Fantasy football is not fractionalized',
+  'Problem: cloud services promote the false idea you don’t need backups',
+  'Problem: Websites are analogous to physical locations yet lack context switches to give us cues',
+  'Problem: Dog poop at night is hard to see (leash light)',
+  'Problem: Retirement is a far off risk(In Obsidian)',
+  'Problem: Friend groups are insular and make it hard to make friends in a new place',
+  'Problem: Robot weapons are probably bad for humanity',
 ];
 
 const listOfPairs = [];
@@ -25,4 +25,21 @@ const generatePairs = (listsPairs) => {
   return generatePairs(listsPairs.splice(1));
 };
 
-console.log(generatePairs(problemList));
+function randomize(values) {
+  let index = values.length,
+    randomIndex;
+
+  // While there remain elements to shuffle.
+  while (index != 0) {
+    // Pick a remaining element.
+    randomIndex = Math.floor(Math.random() * index);
+    index--;
+
+    // And swap it with the current element.
+    [values[index], values[randomIndex]] = [values[randomIndex], values[index]];
+  }
+
+  return values;
+}
+
+console.log(randomize(generatePairs(problemList)));

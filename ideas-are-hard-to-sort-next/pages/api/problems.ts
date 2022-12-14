@@ -14,183 +14,183 @@ export default function handler(
 
 export const formattedList = [
   [
-    'Problem: tampons are not conveniently stored',
-    'Problem: Problem: solar panels are expensive and inconvenient'
+    'Problem: Fantasy football is not fractionalized',
+    'Problem: Dog poop at night is hard to see (leash light)'
   ],
   [
-    'Problem: tampons are not conveniently stored',
-    'Problem: Maps apps are free'
+    'Problem: Websites are analogous to physical locations yet lack context switches to give us cues',
+    'Problem: Robot weapons are probably bad for humanity'
   ],
   [
-    'Problem: tampons are not conveniently stored',
-    "Problem: You can't vote in app on reality TV shows"
+    'Problem: Customer support is asynchronous',
+    'Problem: Websites are analogous to physical locations yet lack context switches to give us cues'
   ],
   [
-    'Problem: tampons are not conveniently stored',
-    'Problem: There is no running total when you are grocery shopping (amazon go as a bright spot)'
+    'Problem: Retirement is a far off risk(In Obsidian)',
+    'Problem: Robot weapons are probably bad for humanity'
   ],
   [
-    'Problem: tampons are not conveniently stored',
-    'Problem: Last mile (and beyond) transport is inefficient and increases traffic'
+    'Problem: Retirement is a far off risk(In Obsidian)',
+    'Problem: Friend groups are insular and make it hard to make friends in a new place'
   ],
   [
-    'Problem: tampons are not conveniently stored',
-    'Problem: Employees are forced to go to different companies for different offers based on equity or compenstation'
+    'Problem: There are tiered monetary rewards via government payouts',
+    'Problem: Websites are analogous to physical locations yet lack context switches to give us cues'
   ],
   [
-    'Problem: tampons are not conveniently stored',
-    "Problem: Public wifi at coffee shops doesn't work"
+    'Problem: There are tiered monetary rewards via government payouts',
+    'Problem: Retirement is a far off risk(In Obsidian)'
   ],
   [
-    'Problem: tampons are not conveniently stored',
-    'Problem: Hotel block software is confusing'
+    'Problem: Customer support is asynchronous',
+    'Problem: Friend groups are insular and make it hard to make friends in a new place'
   ],
   [
-    'Problem: tampons are not conveniently stored',
-    "Problem: Messages on Android are removed from the notification center if you dismiss the push notification. They are left unread, which means they don't remind you about it like they might if it was read."
+    'Problem: Dog poop at night is hard to see (leash light)',
+    'Problem: Friend groups are insular and make it hard to make friends in a new place'
   ],
   [
-    'Problem: Problem: solar panels are expensive and inconvenient',
-    'Problem: Maps apps are free'
+    'Problem: There are tiered monetary rewards via government payouts',
+    'Problem: Robot weapons are probably bad for humanity'
   ],
   [
-    'Problem: Problem: solar panels are expensive and inconvenient',
-    "Problem: You can't vote in app on reality TV shows"
+    'Problem: Fitted sheets are hard to put in',
+    'Problem: Fantasy football is not fractionalized'
   ],
   [
-    'Problem: Problem: solar panels are expensive and inconvenient',
-    'Problem: There is no running total when you are grocery shopping (amazon go as a bright spot)'
+    'Problem: cloud services promote the false idea you don’t need backups',
+    'Problem: Friend groups are insular and make it hard to make friends in a new place'
   ],
   [
-    'Problem: Problem: solar panels are expensive and inconvenient',
-    'Problem: Last mile (and beyond) transport is inefficient and increases traffic'
+    'Problem: Fitted sheets are hard to put in',
+    'Problem: Retirement is a far off risk(In Obsidian)'
   ],
   [
-    'Problem: Problem: solar panels are expensive and inconvenient',
-    'Problem: Employees are forced to go to different companies for different offers based on equity or compenstation'
+    'Problem: cloud services promote the false idea you don’t need backups',
+    'Problem: Robot weapons are probably bad for humanity'
   ],
   [
-    'Problem: Problem: solar panels are expensive and inconvenient',
-    "Problem: Public wifi at coffee shops doesn't work"
+    'Problem: There are tiered monetary rewards via government payouts',
+    'Problem: Fantasy football is not fractionalized'
   ],
   [
-    'Problem: Problem: solar panels are expensive and inconvenient',
-    'Problem: Hotel block software is confusing'
+    'Problem: Customer support is asynchronous',
+    'Problem: Fitted sheets are hard to put in'
   ],
   [
-    'Problem: Problem: solar panels are expensive and inconvenient',
-    "Problem: Messages on Android are removed from the notification center if you dismiss the push notification. They are left unread, which means they don't remind you about it like they might if it was read."
+    'Problem: cloud services promote the false idea you don’t need backups',
+    'Problem: Websites are analogous to physical locations yet lack context switches to give us cues'
   ],
   [
-    'Problem: Maps apps are free',
-    "Problem: You can't vote in app on reality TV shows"
+    'Problem: Fantasy football is not fractionalized',
+    'Problem: Websites are analogous to physical locations yet lack context switches to give us cues'
   ],
   [
-    'Problem: Maps apps are free',
-    'Problem: There is no running total when you are grocery shopping (amazon go as a bright spot)'
+    'Problem: Websites are analogous to physical locations yet lack context switches to give us cues',
+    'Problem: Dog poop at night is hard to see (leash light)'
   ],
   [
-    'Problem: Maps apps are free',
-    'Problem: Last mile (and beyond) transport is inefficient and increases traffic'
+    'Problem: Customer support is asynchronous',
+    'Problem: Fantasy football is not fractionalized'
   ],
   [
-    'Problem: Maps apps are free',
-    'Problem: Employees are forced to go to different companies for different offers based on equity or compenstation'
+    'Problem: Friend groups are insular and make it hard to make friends in a new place',
+    'Problem: Robot weapons are probably bad for humanity'
   ],
   [
-    'Problem: Maps apps are free',
-    "Problem: Public wifi at coffee shops doesn't work"
+    'Problem: Customer support is asynchronous',
+    'Problem: Dog poop at night is hard to see (leash light)'
   ],
   [
-    'Problem: Maps apps are free',
-    'Problem: Hotel block software is confusing'
+    'Problem: Websites are analogous to physical locations yet lack context switches to give us cues',
+    'Problem: Retirement is a far off risk(In Obsidian)'
   ],
   [
-    'Problem: Maps apps are free',
-    "Problem: Messages on Android are removed from the notification center if you dismiss the push notification. They are left unread, which means they don't remind you about it like they might if it was read."
+    'Problem: Websites are analogous to physical locations yet lack context switches to give us cues',
+    'Problem: Friend groups are insular and make it hard to make friends in a new place'
   ],
   [
-    "Problem: You can't vote in app on reality TV shows",
-    'Problem: There is no running total when you are grocery shopping (amazon go as a bright spot)'
+    'Problem: Fitted sheets are hard to put in',
+    'Problem: Friend groups are insular and make it hard to make friends in a new place'
   ],
   [
-    "Problem: You can't vote in app on reality TV shows",
-    'Problem: Last mile (and beyond) transport is inefficient and increases traffic'
+    'Problem: There are tiered monetary rewards via government payouts',
+    'Problem: Fitted sheets are hard to put in'
   ],
   [
-    "Problem: You can't vote in app on reality TV shows",
-    'Problem: Employees are forced to go to different companies for different offers based on equity or compenstation'
+    'Problem: cloud services promote the false idea you don’t need backups',
+    'Problem: Retirement is a far off risk(In Obsidian)'
   ],
   [
-    "Problem: You can't vote in app on reality TV shows",
-    "Problem: Public wifi at coffee shops doesn't work"
+    'Problem: Customer support is asynchronous',
+    'Problem: cloud services promote the false idea you don’t need backups'
   ],
   [
-    "Problem: You can't vote in app on reality TV shows",
-    'Problem: Hotel block software is confusing'
+    'Problem: Dog poop at night is hard to see (leash light)',
+    'Problem: Robot weapons are probably bad for humanity'
   ],
   [
-    "Problem: You can't vote in app on reality TV shows",
-    "Problem: Messages on Android are removed from the notification center if you dismiss the push notification. They are left unread, which means they don't remind you about it like they might if it was read."
+    'Problem: Fantasy football is not fractionalized',
+    'Problem: Retirement is a far off risk(In Obsidian)'
   ],
   [
-    'Problem: There is no running total when you are grocery shopping (amazon go as a bright spot)',
-    'Problem: Last mile (and beyond) transport is inefficient and increases traffic'
+    'Problem: Fitted sheets are hard to put in',
+    'Problem: Robot weapons are probably bad for humanity'
   ],
   [
-    'Problem: There is no running total when you are grocery shopping (amazon go as a bright spot)',
-    'Problem: Employees are forced to go to different companies for different offers based on equity or compenstation'
+    'Problem: There are tiered monetary rewards via government payouts',
+    'Problem: Friend groups are insular and make it hard to make friends in a new place'
   ],
   [
-    'Problem: There is no running total when you are grocery shopping (amazon go as a bright spot)',
-    "Problem: Public wifi at coffee shops doesn't work"
+    'Problem: Dog poop at night is hard to see (leash light)',
+    'Problem: Retirement is a far off risk(In Obsidian)'
   ],
   [
-    'Problem: There is no running total when you are grocery shopping (amazon go as a bright spot)',
-    'Problem: Hotel block software is confusing'
+    'Problem: cloud services promote the false idea you don’t need backups',
+    'Problem: Dog poop at night is hard to see (leash light)'
   ],
   [
-    'Problem: There is no running total when you are grocery shopping (amazon go as a bright spot)',
-    "Problem: Messages on Android are removed from the notification center if you dismiss the push notification. They are left unread, which means they don't remind you about it like they might if it was read."
+    'Problem: Fitted sheets are hard to put in',
+    'Problem: Websites are analogous to physical locations yet lack context switches to give us cues'
   ],
   [
-    'Problem: Last mile (and beyond) transport is inefficient and increases traffic',
-    'Problem: Employees are forced to go to different companies for different offers based on equity or compenstation'
+    'Problem: There are tiered monetary rewards via government payouts',
+    'Problem: cloud services promote the false idea you don’t need backups'
   ],
   [
-    'Problem: Last mile (and beyond) transport is inefficient and increases traffic',
-    "Problem: Public wifi at coffee shops doesn't work"
+    'Problem: Fitted sheets are hard to put in',
+    'Problem: cloud services promote the false idea you don’t need backups'
   ],
   [
-    'Problem: Last mile (and beyond) transport is inefficient and increases traffic',
-    'Problem: Hotel block software is confusing'
+    'Problem: Customer support is asynchronous',
+    'Problem: Robot weapons are probably bad for humanity'
   ],
   [
-    'Problem: Last mile (and beyond) transport is inefficient and increases traffic',
-    "Problem: Messages on Android are removed from the notification center if you dismiss the push notification. They are left unread, which means they don't remind you about it like they might if it was read."
+    'Problem: Customer support is asynchronous',
+    'Problem: Retirement is a far off risk(In Obsidian)'
   ],
   [
-    'Problem: Employees are forced to go to different companies for different offers based on equity or compenstation',
-    "Problem: Public wifi at coffee shops doesn't work"
+    'Problem: Fantasy football is not fractionalized',
+    'Problem: Friend groups are insular and make it hard to make friends in a new place'
   ],
   [
-    'Problem: Employees are forced to go to different companies for different offers based on equity or compenstation',
-    'Problem: Hotel block software is confusing'
+    'Problem: Fantasy football is not fractionalized',
+    'Problem: cloud services promote the false idea you don’t need backups'
   ],
   [
-    'Problem: Employees are forced to go to different companies for different offers based on equity or compenstation',
-    "Problem: Messages on Android are removed from the notification center if you dismiss the push notification. They are left unread, which means they don't remind you about it like they might if it was read."
+    'Problem: Fantasy football is not fractionalized',
+    'Problem: Robot weapons are probably bad for humanity'
   ],
   [
-    "Problem: Public wifi at coffee shops doesn't work",
-    'Problem: Hotel block software is confusing'
+    'Problem: There are tiered monetary rewards via government payouts',
+    'Problem: Dog poop at night is hard to see (leash light)'
   ],
   [
-    "Problem: Public wifi at coffee shops doesn't work",
-    "Problem: Messages on Android are removed from the notification center if you dismiss the push notification. They are left unread, which means they don't remind you about it like they might if it was read."
+    'Problem: Fitted sheets are hard to put in',
+    'Problem: Dog poop at night is hard to see (leash light)'
   ],
   [
-    'Problem: Hotel block software is confusing',
-    "Problem: Messages on Android are removed from the notification center if you dismiss the push notification. They are left unread, which means they don't remind you about it like they might if it was read."
+    'Problem: Customer support is asynchronous',
+    'Problem: There are tiered monetary rewards via government payouts'
   ]
 ]
